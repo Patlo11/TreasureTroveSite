@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Treasure Trove Thrift Store</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .section-title {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #1c9ac8;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #1795a6;
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Treasure Trove Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="customer_review.html">Customer Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container my-5">
+        <div class="row">
+                <h1>Contact Us</h1>
+                <p><strong>If you have any questions, feel free to reach out!</strong></p>
+
+                <form action="https://forms.gle/Tkyxpitxu5YAwTnd9" method="get" target="_blank">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+
+                 <div>
+                <p><strong>You can also tap on the whatsapp tab to reach out!</strong></p>
+                <a href="https://wa.me/26772172300" target="_blank" 
+                style="position: fixed; bottom: 50px; left: 40px; top: 50%; transform: translateY(-50%); z-index: 1000;">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" height="50" alt="WhatsApp">
+             </a>
+             </div>
+
+            <div class="col-md-6">
+                <h2>Our Location & Contact</h2>
+                <p><strong>Address:</strong> Plot No.60746,Bokololo Crescent, Block 7, Gaborone, Botswana</p>
+                <p><strong> Postal Address:</strong> Private Bag TT347, Gaborone, Botswana</p>
+                <p><strong>Phone:</strong> (+267) 71834773</p>
+                <p><strong>Email:</strong> contact@treasuretrove.com</p>
+
+                <div class="my-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1742999846209!6m8!1m7!1skl2yIGbKQrlt_xOn9EFbag!2m2!1d-24.62266328440118!2d25.89027319696322!3f323.54263!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+    </div>
+</div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Treasure Trove Thrift Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
